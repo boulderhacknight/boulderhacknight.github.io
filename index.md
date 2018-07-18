@@ -36,7 +36,9 @@ layout: default
   </p>	
 
 # $ cat greeters.txt
-  <img class="friendly-greeter" src="assets/img/jacqui.jpg" style="height: 250px; width: 250px">
-  <p>Jacqui Nelson, your resident founder.</p>
-  <img class="friendly-greeter" src="assets/img/ben.jpg" style="height: 250px; width: 250px">
-  <p>Ben Lavender, also a nice person.</p>
+  <div class="greeters">
+    <img class="friendly-greeter" src="assets/img/jacqui.jpg" style="height: 250px; width: 250px">
+    <p>Jacqui Nelson, your resident founder.</p>
+    <img class="friendly-greeter" src="assets/img/ben.jpg" style="height: 250px; width: 250px">
+    <p>Ben Lavender, also a nice person.</p>
+  </div>

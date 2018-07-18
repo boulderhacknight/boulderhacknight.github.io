@@ -92,7 +92,6 @@ pre {
 
 img, main iframe {
 	width: 80%;
-	margin-left: 10%;
 	border: 1px dashed rgba(255,255,255,0.5);
 }
 
@@ -104,4 +103,8 @@ main header {
 
 .established {
 	text-align: right;
+}
+
+.greeters {
+	text-align: center;
 }
