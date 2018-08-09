@@ -12,7 +12,7 @@ layout: default
 
 # $ cat when_and_where.txt
   <p>
-    Our soirée happens every week, on Tuesday, at 6pm! We currently meet at <b>License No. 1</b>, located at 2115 13th St, Boulder, CO 80302.
+    Our soirée happens every week, on Tuesday, at 7pm! We currently meet at <b>License No. 1</b>, located at 2115 13th St, Boulder, CO 80302.
   </p>
   <p>
     You can find us by looking for our friendly Hack Knight mascot pictured above.
