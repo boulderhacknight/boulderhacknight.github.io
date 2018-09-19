@@ -33,7 +33,7 @@ layout: default
   </p>
   <p>
     If you're shy, one of our fine greeters will be happy to introduce you to like-minded wizards of analytical enginery, or non-like minded, for the more pugnacious of you. Just walk up to one of these fine people and say hello!
-  </p>	
+  </p>
 
 # $ cat greeters.txt
   <div class="greeters">
@@ -41,4 +41,6 @@ layout: default
     <p>Jacqui Nelson, your resident founder.</p>
     <img class="friendly-greeter" src="assets/img/ben.jpg" style="height: 250px; width: 250px">
     <p>Ben Lavender, also a nice person.</p>
+    <img class="friendly-greeter" src="assets/img/ryan.jpg" style="height: 250px; width: 250px">
+    <p>Ryan Haig, eager for an internship.</p>
   </div>
