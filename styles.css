@@ -3,14 +3,13 @@ html {
 }
 
 .container {
-    width: 1280px;
-    background-image: url(images/background.jpg);
+    margin: 0 auto;background-image: url(images/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-color: black;
-    background-position: fixed;
-    margin: 0 auto;
+    background-attachment: fixed;
+    background-size: 100% auto;
 }
+
 
 .top-content {
     display: flex;
