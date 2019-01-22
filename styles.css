@@ -3,6 +3,7 @@ html {
 }
 
 .container {
+    width: 1280px;
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,9 +68,8 @@ html {
 }
 
 .bottom-content {
-    max-width: 100%;;
     background-color: black;
-    padding: 2% 2% 2% 2%;
+    padding: 2% 0 0 0 ;
 }
 
 .bottom-content .headline{
@@ -83,6 +83,7 @@ html {
     flex-direction: row;
     justify-content: center;
     align-content: space-between;
+    margin: 5% 0 0 0;
 }
 
 .title-font {
@@ -93,18 +94,32 @@ html {
 .bottom-content .left-content {
     width: 40%;
     color: white;
-    margin: 0% 3% 0% 0%;
-    font-size: 1.8rem;
+    margin: 0% 4% 0% 0%;
+    font-size: 2rem;
     text-align: center;
+    line-height: 1.25em;
 }
 
 .bottom-content .right-content {
     width: 40%;
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
+    line-height: 1.25em;
 }
 
-/* h3 {
-    font-size: 50px;
-} */
+.final-paragraph {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 4% 0 2%;
+    line-height: 1.25em;
+}
+
+footer {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin: 12% 4% 0 0;
+    padding: 0 0 1% 0;
+}
