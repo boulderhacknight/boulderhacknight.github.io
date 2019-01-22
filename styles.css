@@ -2,14 +2,29 @@ html {
     font-size: 62.5%;
 }
 
-body {
+.container {
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    background-position: fixed;
+    margin: 0 auto;
 }
 
-.title .bdr {
+.top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-content .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3% 0 0 0;
+}
+
+.top-content .title .bdr {
     color: white;
     font-family: 'Shrikhand', cursive;
     font-size: 15.4rem;
@@ -17,15 +32,79 @@ body {
     text-shadow: 8px 8px 8px black;
     display: flex;
     justify-content: center;
-    margin: 8% 12% 0 0 ;
 }
 
-.title .hackNight {
+.top-content .title .hackNight {
+    display: flex;
+    justify-content: center;
     color: white;
     font-size: 8.4rem;
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-shadow: 8px 8px 4px black;
-    margin: 0 11% 0 0;
 }
+
+:link {
+    color: white;
+}
+
+:visited {
+    color: white;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 8px 8px 4px black;
+    margin: 3% 0 11% 0;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.bottom-content {
+    max-width: 100%;;
+    background-color: black;
+    padding: 2% 2% 2% 2%;
+}
+
+.bottom-content .headline{
+    color: white;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.title-font {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bottom-content .left-content {
+    width: 40%;
+    color: white;
+    margin: 0% 3% 0% 0%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.bottom-content .right-content {
+    width: 40%;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* h3 {
+    font-size: 50px;
+} */
