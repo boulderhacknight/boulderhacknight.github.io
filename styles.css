@@ -60,8 +60,8 @@ html {
     margin: 3% 0 11% 0;
 }
 
-.socialMedia .fab {
-
+i {
+    margin: 0 2% 0 2%;
 }
 
 .arrow {
@@ -72,7 +72,7 @@ html {
 
 .bottom-content {
     background-color: black;
-    padding: 2% 0 0 0 ;
+    padding: .05%; 0 0 0 ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -124,13 +124,19 @@ html {
 
 .arrow-up {
     text-align: center;
-    margin: 5% 0 0 0;
+    margin: 3% 0 0 0;
 }
 
 footer {
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
-    margin: 5% 0 0 0;
+    margin: 20% 0 0 0;
     padding: 0 0 1% 0;
+    font-family: "Shrikhand"; 
+}
+
+.danson {
+    height: 1.5%;
+    width: 1.5%;;
 }
