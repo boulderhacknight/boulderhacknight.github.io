@@ -60,6 +60,10 @@ html {
     margin: 3% 0 11% 0;
 }
 
+.socialMedia .fab {
+
+}
+
 .arrow {
     display: flex;
     justify-content: center;
@@ -69,12 +73,14 @@ html {
 .bottom-content {
     background-color: black;
     padding: 2% 0 0 0 ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bottom-content .headline{
     color: white;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 .info-content {
@@ -88,6 +94,7 @@ html {
 .title-font {
     font-size: 3rem;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .bottom-content .left-content {
@@ -96,7 +103,7 @@ html {
     margin: 0% 4% 0% 0%;
     font-size: 2rem;
     text-align: center;
-    line-height: 1.25em;
+    line-height: 1.4em;
 }
 
 .bottom-content .right-content {
@@ -104,7 +111,7 @@ html {
     color: white;
     font-size: 2rem;
     text-align: center;
-    line-height: 1.25em;
+    line-height: 1.4em;
 }
 
 .final-paragraph {
@@ -112,13 +119,18 @@ html {
     font-size: 2rem;
     text-align: center;
     margin: 5% 4% 0 2%;
-    line-height: 1.25em;
+    line-height: 1.4em;
+}
+
+.arrow-up {
+    text-align: center;
+    margin: 5% 0 0 0;
 }
 
 footer {
     color: white;
     font-size: 1rem;
     text-align: center;
-    margin: 12% 4% 0 0;
+    margin: 5% 0 0 0;
     padding: 0 0 1% 0;
 }
