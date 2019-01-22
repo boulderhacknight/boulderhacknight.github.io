@@ -1,0 +1,142 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    margin: 0 auto;background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-content .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3% 0 0 0;
+}
+
+.top-content .title .bdr {
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    font-size: 15.4rem;
+    letter-spacing: 1.25rem; 
+    text-shadow: 8px 8px 8px black;
+    display: flex;
+    justify-content: center;
+}
+
+.top-content .title .hackNight {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 8.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 8px 8px 4px black;
+}
+
+:link {
+    color: white;
+}
+
+:visited {
+    color: white;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 8px 8px 4px black;
+    margin: 3% 0 11% 0;
+}
+
+i {
+    margin: 0 2% 0 2%;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.bottom-content {
+    background-color: black;
+    padding: .05%; 0 0 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-content .headline{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    margin: 5% 0 0 0;
+}
+
+.title-font {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-content .left-content {
+    width: 40%;
+    color: white;
+    margin: 0% 4% 0% 0%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.bottom-content .right-content {
+    width: 40%;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.final-paragraph {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 4% 0 2%;
+    line-height: 1.4em;
+}
+
+.arrow-up {
+    text-align: center;
+    margin: 3% 0 0 0;
+}
+
+footer {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20% 0 0 0;
+    padding: 0 0 1% 0;
+    font-family: "Shrikhand"; 
+}
+
+.danson {
+    height: 1.5%;
+    width: 1.5%;;
+}
