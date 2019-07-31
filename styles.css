@@ -17,6 +17,12 @@ html {
     justify-content: center;
 }
 
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 10px;
+}
+
 .top-content .title {
     display: flex;
     flex-direction: column;
